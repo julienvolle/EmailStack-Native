@@ -27,6 +27,12 @@ x5 COLUMN (SWITCH)
 x5 COLUMN WRAPPER (FIX)  
 x5 COLUMN WRAPPER (SWITCH)  
 
+TEXT
+> BORDER  
+> BORDER-RADIUS (Not full compatibility !)  
+> WEB-FONT (Not full compatibility !)  
+> BACKGROUND-IMAGE (Not full compatibility !)  
+
 ---
 
 ### Compatiblity
