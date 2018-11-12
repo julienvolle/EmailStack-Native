@@ -9,23 +9,23 @@ It's a responsive template (width 600/300 pixels on desktop/mobile)
 
 IMAGE
 > x1 COLUMN  
-> x1 COLUMN WRAPPER  
-> x2 COLUMN (FIX)  
-> x2 COLUMN (SWITCH)  
-> x2 COLUMN WRAPPER (FIX)  
-> x2 COLUMN WRAPPER (SWITCH)  
-> x3 COLUMN (FIX)  
-> x3 COLUMN (SWITCH)  
-> x3 COLUMN WRAPPER (FIX)  
-> x3 COLUMN WRAPPER (SWITCH)  
+x1 COLUMN WRAPPER  
+>> x2 COLUMN (FIX)  
+x2 COLUMN (SWITCH)  
+x2 COLUMN WRAPPER (FIX)  
+x2 COLUMN WRAPPER (SWITCH)  
+>>> x3 COLUMN (FIX)  
+x3 COLUMN (SWITCH)  
+x3 COLUMN WRAPPER (FIX)  
+x3 COLUMN WRAPPER (SWITCH)   
 
 ---
 
 ### Compatiblity
 
-Tests performed on [Litmus](https://litmus.com/)  
+> Tests performed on [Litmus](https://litmus.com/)  
 
->Desktop  
+On desktop:  
 - Apple Mail 9  
 - Apple Mail 10  
 - Apple Mail 11  
@@ -43,7 +43,7 @@ Tests performed on [Litmus](https://litmus.com/)
 - Microsoft Outlook 2019  
 - Mozilla Thunderbird  
 
->Mobile  
+On mobile:  
 - Android 4.4  
 - Android 5  
 - Android 6  
@@ -63,7 +63,7 @@ Tests performed on [Litmus](https://litmus.com/)
 - iOS (App Gmail)  
 - iOS (App Google Inbox)  
 
->Webmail  
+On webmail:  
 - AOL Online  
 - Comcast  
 - Freenet.de  
